@@ -21,7 +21,7 @@ To create the most developer-friendly real-time communication protocol, making b
 
 ## 📈 Evolution Phases
 
-### Phase 1: Foundation (Q1-Q2 2025)
+### Phase 1: Foundation (Q1-Q2 2024)
 *Building the core infrastructure and establishing the ecosystem*
 
 #### Core Protocol Enhancement
@@ -41,15 +41,15 @@ gantt
     title Phase 1 Timeline
     dateFormat  YYYY-MM-DD
     section Core
-    Protocol Enhancement   :2025-01-01, 60d
+    Protocol Enhancement   :2024-01-01, 60d
     Validation System     :30d
     Error Handling       :30d
     section DevEx
-    Documentation       :2025-03-01, 45d
+    Documentation       :2024-03-01, 45d
     Testing Tools      :30d
 ```
 
-### Phase 2: Advanced Features (Q3-Q4 2025)
+### Phase 2: Advanced Features (Q3-Q4 2024)
 *Extending capabilities while maintaining simplicity*
 
 #### Enhanced Messaging
@@ -93,7 +93,7 @@ graph TD
    - Permission system
    - Audit logging
 
-### Phase 3: Ecosystem (2026)
+### Phase 3: Ecosystem (2025)
 *Building a rich ecosystem of tools and integrations*
 
 #### Developer Tools
@@ -169,7 +169,7 @@ graph TD
 
 ## 🎯 Key Metrics & Goals
 
-| Metric | Current | 2025 Goal | 2026 Goal |
+| Metric | Current | 2024 Goal | 2025 Goal |
 |--------|---------|-----------|-----------|
 | Latency (99th percentile) | <100ms | <50ms | <25ms |
 | Memory per connection | ~50KB | ~30KB | ~20KB |
@@ -203,31 +203,31 @@ graph TD
 
 ## 🛣️ Implementation Timeline
 
-### Q1 2025
+### Q1 2024
 - Core protocol stabilization
 - Documentation enhancement
 - Basic developer tools
 - Performance baseline
 
-### Q2 2025
+### Q2 2024
 - Progressive responses
 - Enhanced state management
 - Security improvements
 - Testing framework
 
-### Q3 2025
+### Q3 2024
 - Advanced streaming
 - Cross-language support
 - Performance optimization
 - Extended tooling
 
-### Q4 2025
+### Q4 2024
 - Ecosystem development
 - Community tools
 - Enterprise features
 - Performance tuning
 
-### 2026
+### 2025
 - Advanced use cases
 - Industry-specific solutions
 - Platform maturity
@@ -279,6 +279,21 @@ graph TD
 
 ---
 
+## 🔮 Future Horizons (2025+)
+
+### Transport Evolution
+While WebSocket serves as our robust foundation today, we're keeping an eye on emerging transport technologies:
+
+- **WebTransport (HTTP/3)**
+  - Built on QUIC protocol
+  - Enhanced performance characteristics
+  - Native multiplexing support
+  - Improved loss recovery
+
+Our protocol design ensures we can adapt to new transport layers without breaking changes to the core request/response patterns that make Helios-Starling unique.
+
+---
+
 *This roadmap is a living document and will evolve based on community feedback and technological advances.*
 
-###### Last updated: January 8, 2025
+###### Last updated: January 8, 2024
