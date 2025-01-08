@@ -50,16 +50,16 @@ Helios-Starling is currently in active development. While the protocol specifica
 
 ```bash
 # Install server library
-bun add @helios/server
+bun add @helios-starling/helios
 
 # Install client library
-npm install @helios/client
+npm install @helios-starling/starling
 ```
 
 ### Minimal Server Example
 
 ```javascript
-import { Helios } from '@helios/server';
+import { Helios } from '@helios-starling/helios';
 
 const helios = new Helios();
 
@@ -73,7 +73,7 @@ await helios.listen(8080);
 ### Minimal Client Example
 
 ```javascript
-import { Starling } from '@helios/client';
+import { Starling } from '@helios-starling/starling';
 
 const client = new Starling('ws://localhost:8080');
 await client.connect();
@@ -97,9 +97,9 @@ client.on('user:presence', (data) => {
 ## Implementations
 
 ### Official
-- [`@helios/server`](https://github.com/helios/server) - Bun server implementation
-- [`@helios/client`](https://github.com/helios/client) - JavaScript client
-- [`@helios/protocol`](https://github.com/helios/protocol) - Shared protocol utilities
+- [`@helios-starling/helios`](https://github.com/Helios-Starling/heliosjs) - Bun server implementation
+- [`@helios-starling/starling`](https://github.com/Helios-Starling/starlingjs) - JavaScript client
+- [`@helios-starling/utils`](https://github.com/Helios-Starling/utilsjs) - Shared protocol utilities
 
 ### Community
 *Coming soon - We welcome community implementations!*
